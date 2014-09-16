@@ -1,0 +1,2 @@
+commands:
+  - \VagrantConfig\Command\Vagrant\Box

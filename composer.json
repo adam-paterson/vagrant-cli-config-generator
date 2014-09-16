@@ -1,0 +1,25 @@
+{
+    "name": "adampaterson/vagrant-config",
+    "description": "Vagrant config generator",
+    "require": {
+        "symfony/console": "2.6.*",
+        "symfony/yaml": "2.5.*"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Paterson",
+            "email": "hello@adampaterson.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "VagrantConfig\\": "src"
+        }
+    }
+}
